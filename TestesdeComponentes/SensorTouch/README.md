@@ -1,4 +1,4 @@
-﻿﻿# Teste Sensor de Presença
+﻿﻿# Teste Sensor de Toque
 
 ## Índice
 - [Descrição](#descrição)
@@ -10,33 +10,30 @@
 
 ## Descrição
 
-Este projeto tem como objetivo testar o funcionamento do sensor de presença HC-SR501 e o acionamento de um LED quando o sensor detectar movimento. O sensor PIR é utilizado para detectar a presença de movimento em uma área e acionar um LED correspondente.
+Este projeto tem como objetivo testar o funcionamento de um sensor de toque e o acionamento de um LED quando o sensor detectar um toque. O sensor de toque é utilizado para detectar o toque em uma superfície e acionar um LED correspondente.
 
 ## Requisitos
 
 Para executar este projeto, você precisará de:
 
 - Arduino (por exemplo, Arduino Uno)
-- Sensor de presença HC-SR501 PIR
+- Sensor de toque capacitivo (ex: TTP223)
 - LED
 - Resistor de 220Ω para o LED
-- Pulldown resistor de 10kΩ para o sensor (opcional, mas recomendado)
 - Jumpers e protoboard
 - Cabo USB para conectar o Arduino ao computador
 - Software Arduino IDE
 
-   ### Imagens dos Materiais
+### Imagens dos Materiais
 
-   - Arduino: 
-   <img src="imagensEvideos/Arduino.jpg" alt="Arduino Uno" width="200">
+- Arduino: 
+  <img src="imagensEvideos/Arduino.jpg" alt="Arduino Uno" width="200">
 
-   - Led Azul:
-   <img src="imagensEvideos/Led.jpg" alt="Led Azul" width="200">
+- Led Azul:
+  <img src="imagensEvideos/Led.jpg" alt="Led Azul" width="200">
 
-   -Sensor de Toque: 
-
-   <img src="imagensEvideos/sensorTouch.jpg" alt="Sensor de Toque" width="190">
-   
+- Sensor de Toque:
+  <img src="imagensEvideos/sensorTouch.jpg" alt="Sensor de Toque" width="190">
 
 ## Instalação
 
@@ -65,15 +62,14 @@ Para executar este projeto, você precisará de:
 ## Uso
 
 1. **Conecte o Sensor e o LED**:
-   - **Sensor**: Conecte o pino de saída do sensor ao pino digital `7` do Arduino.
+   - **Sensor de Toque**: Conecte o pino de saída do sensor ao pino digital `7` do Arduino.
    - **LED**: Conecte o anodo do LED ao pino digital `6` do Arduino e o catodo ao GND, com um resistor de 220Ω em série.
-   - **Pulldown Resistor**: Conecte um resistor de 10kΩ entre o pino de saída do sensor e o GND.
 
 2. **Monitore o Serial**:
    - Abra o monitor serial no Arduino IDE em **Ferramentas > Monitor Serial** para ver as leituras do sensor.
 
 3. **Testar o Sensor**:
-   - Coloque o sensor em um ambiente estático e observe o comportamento do LED e as mensagens no monitor serial.
+   - Toque no sensor e observe o comportamento do LED e as mensagens no monitor serial.
 
 ## Inicialização
 
@@ -83,6 +79,7 @@ Para iniciar o monitoramento, siga estas etapas no Arduino IDE:
    ```bash
    # Conectar o Arduino ao computador e subir o código
    # No Arduino IDE, clique em Upload para carregar o código no Arduino.
+
 
 ## Vídeo Demonstrativo do Funcionamento
 
