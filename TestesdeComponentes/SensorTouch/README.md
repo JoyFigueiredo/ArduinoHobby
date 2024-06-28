@@ -27,12 +27,15 @@ Para executar este projeto, você precisará de:
 ### Imagens dos Materiais
 
 - Arduino: 
+
   <img src="imagensEvideos/Arduino.jpg" alt="Arduino Uno" width="200">
 
 - Led Azul:
+
   <img src="imagensEvideos/Led.jpg" alt="Led Azul" width="200">
 
 - Sensor de Toque:
+
   <img src="imagensEvideos/sensorTouch.jpg" alt="Sensor de Toque" width="190">
 
 ## Instalação
