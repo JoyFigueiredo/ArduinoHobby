@@ -42,7 +42,9 @@ Neste projeto, utilizamos o **Motor de Passo Nema 17 - 17HS4440 - JK42HS40-1704*
 - **Passo por volta:** 200 (1,8° por passo)  
 - **Eixo:** 5mm de diâmetro  
 
-<img src="imagensEvideos/StepperMotorNema17.jpg" alt="Sensor de Toque" width="190"> 
+<p align="center">
+  <img src="imagensEvideos/StepperMotorNema17.jpg" alt="Motor de Passo Nema 17" width="500">
+</p>
 
 ---
 
