@@ -1,16 +1,16 @@
-﻿﻿# Teste Motor de Passo
+﻿﻿# **Teste Motor de Passo**
 
 ## Índice
-- [Descrição](#descrição)
-    -[Motor de Passo](#motor-de-passostepper-motor-nema-17---17hs4440---jk42hs40-1704)
-    -[Driver A4988](#driver-a4988)
-    -[Regulador de Tensão](#regulador-de-tensão-lm2596)
-    -[]()
-- [Imagens dos Materiais](#imagens-dos-materiais)
-- [Requisitos](#requisitos)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Inicialização](#inicialização)
+1.[Descrição](#descrição)
+        -[Motor de Passo](#motor-de-passostepper-motor-nema-17---17hs4440---jk42hs40-1704)
+        -[Driver A4988](#driver-a4988)
+        -[Regulador de Tensão](#regulador-de-tensão-lm2596)
+        -[]()
+2.[Imagens dos Materiais](#imagens-dos-materiais)
+3.[Requisitos](#requisitos)
+4.[Instalação](#instalação)
+5.[Uso](#uso)
+6.[Inicialização](#inicialização)
 
 
 ## Descrição
