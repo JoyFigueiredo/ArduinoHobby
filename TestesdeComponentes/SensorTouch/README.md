@@ -1,88 +1,92 @@
-﻿﻿# Teste Sensor de Toque
+﻿﻿# 🚀 Teste Sensor de Toque
 
-## Índice
-- [Descrição](#descrição)
-- [Requisitos](#requisitos)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Inicialização](#inicialização)
-- [Imagens dos Materiais](#imagens-dos-materiais)
+## 📌 Índice
+- [🚀 Teste Sensor de Toque](#-teste-sensor-de-toque)
+  - [📌 Índice](#-índice)
+  - [📌 Descrição](#-descrição)
+    - [🎯 Sensor de Toque TTP223](#-sensor-de-toque-ttp223)
+      - [📍 O que é um Sensor de Toque?](#-o-que-é-um-sensor-de-toque)
+    - [🎯 Como Funciona?](#-como-funciona)
+  - [📌 Imagens dos Materiais](#-imagens-dos-materiais)
+  - [📌 Requisitos](#-requisitos)
+  - [📌 Instalação](#-instalação)
+  - [📌 Uso](#-uso)
+  - [Vídeo Demonstrativo do Funcionamento](#vídeo-demonstrativo-do-funcionamento)
 
-## Descrição
+---
 
-Este projeto tem como objetivo testar o funcionamento de um sensor de toque e o acionamento de um LED quando o sensor detectar um toque. O sensor de toque é utilizado para detectar o toque em uma superfície e acionar um LED correspondente.
+## 📌 Descrição  
 
-## Requisitos
+### 🎯 Sensor de Toque TTP223  
 
-Para executar este projeto, você precisará de:
+#### 📍 O que é um Sensor de Toque?  
 
-- Arduino (por exemplo, Arduino Uno)
-- Sensor de toque capacitivo (ex: TTP223)
-- LED
-- Resistor de 220Ω para o LED
-- Jumpers e protoboard
-- Cabo USB para conectar o Arduino ao computador
-- Software Arduino IDE
+O **sensor de toque** TTP223 é um sensor capacitivo que detecta a variação de capacitância quando há contato físico com a superfície de sensibilidade, acionando um sinal digital.  
+É muito usado em dispositivos interativos, como teclados sensíveis ao toque e interruptores eletrônicos.  
 
-### Imagens dos Materiais
+🔹 **Aplicações:** Teclados sensíveis ao toque, sistemas de alarme, controle de iluminação.  
+🔹 **Vantagens:** Não requer partes móveis, baixo consumo de energia.  
 
-- Arduino: 
+---
 
-  <img src="imagensEvideos/Arduino.jpg" alt="Arduino Uno" width="200">
+### 🎯 Como Funciona?  
 
-- Led Azul:
+O sensor TTP223 usa um eletrodo capacitivo para detectar a aproximação ou o toque de um dedo. Quando o toque é detectado, ele gera um sinal lógico para acionar o sistema desejado (como acionar um LED).
 
-  <img src="imagensEvideos/Led.jpg" alt="Led Azul" width="200">
+---
 
-- Sensor de Toque:
+## 📌 Imagens dos Materiais  
 
-  <img src="imagensEvideos/sensorTouch.jpg" alt="Sensor de Toque" width="190">
+Aqui estão os principais componentes utilizados no projeto:  
 
-## Instalação
+| Componente            | Imagem                                |
+|-----------------------|---------------------------------------|
+| **Sensor de Toque**    | <img src="imagensEvideos/sensorTouch.jpg" width="200"> |
+| **LED Azul**           | <img src="imagensEvideos/Led.jpg" width="200"> |
+| **Arduino**            | <img src="imagensEvideos/Arduino.jpg" width="250"> |
 
-1. **Instale o Arduino IDE**:
-   - Baixe e instale o Arduino IDE a partir do [site oficial](https://www.arduino.cc/en/software).
+---
 
-2. **Baixe o Código**:
-   - Clone este repositório ou baixe o código manualmente.
-     ```bash
-     git clone https://github.com/seu-usuario/teste-componentes.git
-     ```
+## 📌 Requisitos  
 
-3. **Abra o Código no Arduino IDE**:
-   - Abra o arquivo `.ino` no Arduino IDE.
+✔ **Sensor de Toque TTP223**  
+✔ **Arduino Uno**  
+✔ **LED**  
+✔ **Resistor de 220Ω**  
+✔ **Jumpers e Protoboard**  
+✔ **Cabo USB**  
 
-4. **Conecte o Arduino ao Computador**:
-   - Conecte seu Arduino ao computador usando um cabo USB.
+---
 
-5. **Configure o Arduino IDE**:
-   - Selecione a placa correta (por exemplo, Arduino Uno) em **Ferramentas > Placa**.
-   - Selecione a porta correta em **Ferramentas > Porta**.
+## 📌 Instalação  
 
-6. **Faça o Upload do Código**:
-   - Clique no botão de upload (seta para a direita) para carregar o código no Arduino.
+1️⃣ Conecte o **Sensor de Toque** ao pino digital `7` do Arduino.  
+2️⃣ Conecte o **LED** ao pino digital `6` do Arduino e o GND com um resistor de 220Ω em série.  
+3️⃣ Carregue o código no Arduino.
 
-## Uso
+---
 
-1. **Conecte o Sensor e o LED**:
-   - **Sensor de Toque**: Conecte o pino de saída do sensor ao pino digital `7` do Arduino.
-   - **LED**: Conecte o anodo do LED ao pino digital `6` do Arduino e o catodo ao GND, com um resistor de 220Ω em série.
+## 📌 Uso  
 
-2. **Monitore o Serial**:
-   - Abra o monitor serial no Arduino IDE em **Ferramentas > Monitor Serial** para ver as leituras do sensor.
+Código básico para acionar o LED ao detectar toque:
 
-3. **Testar o Sensor**:
-   - Toque no sensor e observe o comportamento do LED e as mensagens no monitor serial.
+```cpp
+#define TOUCH_PIN 7
+#define LED_PIN 6
 
-## Inicialização
+void setup() {
+  pinMode(TOUCH_PIN, INPUT);
+  pinMode(LED_PIN, OUTPUT);
+}
 
-Para iniciar o monitoramento, siga estas etapas no Arduino IDE:
-
-1. **Conectar e Subir o Código**:
-   ```bash
-   # Conectar o Arduino ao computador e subir o código
-   # No Arduino IDE, clique em Upload para carregar o código no Arduino.
-
+void loop() {
+  if(digitalRead(TOUCH_PIN) == HIGH) {
+    digitalWrite(LED_PIN, HIGH);  // Acende o LED
+  } else {
+    digitalWrite(LED_PIN, LOW);   // Apaga o LED
+  }
+}
+```
 
 ## Vídeo Demonstrativo do Funcionamento
 
