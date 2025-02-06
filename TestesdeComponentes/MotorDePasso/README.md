@@ -17,8 +17,10 @@
 > [!IMPORTANT]
 > Verifique se esta com o Motor de passo correspondente, e verifique suas informações no Datasheet: [Motor de Passo Nema 17 - DataSheet](Datasheet%20-%2017HS4401S.pdf).
 
-- O que é um motor de passo?
+- 🛠 O que é um Motor de Passo?
+
 Um **motor de passo** é um tipo de motor elétrico que se move em pequenos passos fixos. Diferente de motores comuns, que giram continuamente, ele avança em **passos discretos**, permitindo um controle preciso de posição e velocidade.  
+<br>
 🔹 **Aplicações:** Impressoras 3D, CNCs, robôs, automação industrial, etc.  
 
 🔹 **Vantagens:** Controle preciso sem sensores extras. 
