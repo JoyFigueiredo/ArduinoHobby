@@ -1,4 +1,7 @@
-﻿﻿## Índice
+﻿﻿-
+# Teste Motor de Passo 
+
+## Índice
 - [Descrição](#descrição);
     - [Motor de Passo](#motor-de-passostepper-motor-nema-17---17hs4440---jk42hs40-1704);
     - [Driver A4988](#driver-a4988);
@@ -39,7 +42,7 @@ Neste projeto, utilizamos o **Motor de Passo Nema 17 - 17HS4440 - JK42HS40-1704*
 - **Passo por volta:** 200 (1,8° por passo)  
 - **Eixo:** 5mm de diâmetro  
 
-![Motor Nema 17](https://www.eletrogate.com/media/catalog/product/cache/7d0c1b259e6dbfc5a218b05a2de5d4ff/1/2/1201-motor-de-passo-nema-17-17hs4401s_2.jpg)  
+<img src="imagensEvideos/StepperMotorNema17.jpg" alt="Sensor de Toque" width="190"> 
 
 ---
 
@@ -48,7 +51,7 @@ Neste projeto, utilizamos o **Motor de Passo Nema 17 - 17HS4440 - JK42HS40-1704*
 O motor de passo tem várias bobinas internas organizadas em fases.  
 Quando uma corrente elétrica passa por essas bobinas, o rotor (parte móvel do motor) gira em pequenos passos.  
 
-    - 🔄 Tipos de Movimento  
+-- 🔄 Tipos de Movimento  
 
 1️⃣ **Passo Completo**: O motor move-se um passo por vez (maior torque).  
 2️⃣ **Meio Passo**: Cada passo é dividido em dois, melhorando a precisão.  
@@ -60,7 +63,7 @@ Quando uma corrente elétrica passa por essas bobinas, o rotor (parte móvel do 
 
 - 🖥 Ligando o Motor ao Arduino  
 
-Para controlar o motor, utilizamos o **driver A4988**, que converte sinais elétricos em pulsos precisos.  
+Para controlar o motor, utilizamos o **driver A4988**, que converte sinais elétricos em pulsos precisos. Falaremos sobre ele no proximo tópico.  
 
 
  ### 📌Driver A4988
