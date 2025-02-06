@@ -151,7 +151,34 @@ Aqui estão os principais componentes utilizados no projeto:
 | **Motor Nema 17** | <img src="imagensEvideos/StepperMotorNema17.jpg" width="250"> |
 | **Driver A4988** | <img src="imagensEvideos/driveA4988.jpg" width="150"> |
 | **Regulador LM2596** | <img src="imagensEvideos/LM2596Frente.jpg" width="250"> |
-| **Arduino** | <img src="imagensEvideos/arduino.jpg" width="250"> |
+| **Arduino** | <img src="imagensEvideos/Arduino.jpg" width="250"> |
+
+<div style="display: flex; justify-content: center;">
+
+<table>
+  <tr>
+    <th>Componente</th>
+    <th>Imagem</th>
+  </tr>
+  <tr>
+    <td><strong>Motor Nema 17</strong></td>
+    <td><img src="imagensEvideos/StepperMotorNema17.jpg" width="250"></td>
+  </tr>
+  <tr>
+    <td><strong>Driver A4988</strong></td>
+    <td><img src="imagensEvideos/driveA4988.jpg" width="150"></td>
+  </tr>
+  <tr>
+    <td><strong>Regulador LM2596</strong></td>
+    <td><img src="imagensEvideos/LM2596Frente.jpg" width="250"></td>
+  </tr>
+  <tr>
+    <td><strong>Arduino</strong></td>
+    <td><img src="imagensEvideos/Arduino.jpg" width="250"></td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
