@@ -10,13 +10,12 @@
 
 
 ## Descrição
-### Motor de Passo(Stepper Motor) Nema 17 - 17HS4440 - JK42HS40-1704
+ #### Motor de Passo(Stepper Motor) Nema 17 - 17HS4440 - JK42HS40-1704
 
-### Driver A4988
+ #### Driver A4988
 
-### Regulador de Tensão LM2596
+ #### Regulador de Tensão LM2596
 
---------------------------------------//-----------------------------
 ## Requisitos
 
 ### Imagens dos Materiais
