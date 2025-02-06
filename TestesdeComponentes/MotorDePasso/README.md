@@ -14,6 +14,8 @@
 
 
 ## Descrição
+> [!IMPORTANT]
+> Verifique se esta com o Motor de passo correspondente, e verifique suas informações no Datasheet [Motor de Passo DataSheet](Datasheet%20-%2017HS4401S.pdf).
  #### Motor de Passo(Stepper Motor) Nema 17 - 17HS4440 - JK42HS40-1704
 
  #### Driver A4988
