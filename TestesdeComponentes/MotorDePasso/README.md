@@ -17,6 +17,7 @@
         - [📌 Onde:](#-onde)
     - [📌 Regulador de Tensão LM2596](#-regulador-de-tensão-lm2596)
       - [🔹 Características](#-características)
+    - [📌 Fonte de Alimentação](#-fonte-de-alimentação)
   - [📌 Imagens dos Materiais](#-imagens-dos-materiais)
   - [📌 Requisitos](#-requisitos)
   - [📌 Instalação](#-instalação)
@@ -142,6 +143,17 @@ O **LM2596** é um regulador de tensão **Step-Down**, usado para reduzir a tens
 
 ---
 
+### 📌 Fonte de Alimentação  
+
+A fonte de alimentação utilizada no circuito é:
+
+- **Saída:** 12V 3A  
+- **Entrada:** 100-240V ~50/60Hz  
+
+Esta fonte alimentará tanto o **LM2596** quanto o **Driver A4988**, garantindo uma corrente adequada para o motor de passo.
+
+---
+
 ## 📌 Imagens dos Materiais  
 
 Aqui estão os principais componentes utilizados no projeto:  
@@ -152,33 +164,6 @@ Aqui estão os principais componentes utilizados no projeto:
 | **Driver A4988** | <img src="imagensEvideos/driveA4988.jpg" width="150"> |
 | **Regulador LM2596** | <img src="imagensEvideos/LM2596Frente.jpg" width="250"> |
 | **Arduino** | <img src="imagensEvideos/Arduino.jpg" width="250"> |
-
-<div style="display: flex; justify-content: center;">
-
-<table>
-  <tr>
-    <th>Componente</th>
-    <th>Imagem</th>
-  </tr>
-  <tr>
-    <td><strong>Motor Nema 17</strong></td>
-    <td><img src="imagensEvideos/StepperMotorNema17.jpg" width="250"></td>
-  </tr>
-  <tr>
-    <td><strong>Driver A4988</strong></td>
-    <td><img src="imagensEvideos/driveA4988.jpg" width="150"></td>
-  </tr>
-  <tr>
-    <td><strong>Regulador LM2596</strong></td>
-    <td><img src="imagensEvideos/LM2596Frente.jpg" width="250"></td>
-  </tr>
-  <tr>
-    <td><strong>Arduino</strong></td>
-    <td><img src="imagensEvideos/Arduino.jpg" width="250"></td>
-  </tr>
-</table>
-
-</div>
 
 ---
 
@@ -197,10 +182,12 @@ Aqui estão os principais componentes utilizados no projeto:
 
 1️⃣ Conecte o **Motor Nema 17** ao Driver A4988.  
 2️⃣ Ligue o **Driver A4988** ao Arduino:  
-   - `DIR` → **Pino 8**  
-   - `STEP` → **Pino 9**  
+   - `DIR` → **Pino 8**
+   - `STEP` → **Pino 9**
+ 
 3️⃣ Regule a **tensão do LM2596** para 12V e conecte à alimentação do driver.  
-4️⃣ Carregue o código no Arduino.  
+4️⃣ Conecte a fonte de **12V 3A** à entrada do LM2596.  
+5️⃣ Carregue o código no Arduino. 
 
 ---
 
