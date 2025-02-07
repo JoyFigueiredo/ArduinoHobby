@@ -1,4 +1,7 @@
-﻿﻿# 🚀 Teste Motor de Passo
+﻿﻿Olá,
+> Venho compartilhar meu conhecimento, de forma a também deixar de fácil acesso exemplos e formas de uso de componentes, um portfólio pessoal dos meus componentes.
+
+# 🚀 Teste Motor de Passo
 
 ## 📌 Índice
 - [🚀 Teste Motor de Passo](#-teste-motor-de-passo)
@@ -22,6 +25,7 @@
   - [📌 Requisitos](#-requisitos)
   - [📌 Instalação](#-instalação)
   - [📌 Uso](#-uso)
+  - [Vídeo Demonstrativo do Funcionamento](#vídeo-demonstrativo-do-funcionamento)
 
 ---
 
@@ -214,3 +218,6 @@ void loop() {
   }
   delay(1000);
 }
+```
+
+## Vídeo Demonstrativo do Funcionamento

@@ -1,4 +1,7 @@
-﻿﻿# 🚀 Teste Sensor de Toque
+﻿﻿Olá,
+> Venho compartilhar meu conhecimento, de forma a também deixar de fácil acesso exemplos e formas de uso de componentes, um portfólio pessoal dos meus componentes.
+
+# 🚀 Teste Sensor de Toque
 
 ## 📌 Índice
 - [🚀 Teste Sensor de Toque](#-teste-sensor-de-toque)
@@ -11,7 +14,7 @@
   - [📌 Requisitos](#-requisitos)
   - [📌 Instalação](#-instalação)
   - [📌 Uso](#-uso)
-  - [Vídeo Demonstrativo do Funcionamento](#vídeo-demonstrativo-do-funcionamento)
+  - [🎬 Vídeo Demonstrativo do Funcionamento](#-vídeo-demonstrativo-do-funcionamento)
 
 ---
 
@@ -88,7 +91,7 @@ void loop() {
 }
 ```
 
-## Vídeo Demonstrativo do Funcionamento
+## 🎬 Vídeo Demonstrativo do Funcionamento
 
 https://github.com/JoyFigueiredo/ArduinoHobby/assets/87450298/07a08eba-10fd-4d6d-8f5a-3f352e77d485
 
