@@ -13,7 +13,7 @@
   - [📌 Imagens dos Materiais](#-imagens-dos-materiais)
   - [📌 Requisitos](#-requisitos)
   - [📌 Instalação](#-instalação)
-  - [**Esquema**          | ](#esquema-----------)
+  - [](#)
   - [📌 Uso](#-uso)
   - [🎬 Vídeo Demonstrativo do Funcionamento](#-vídeo-demonstrativo-do-funcionamento)
 
@@ -69,7 +69,7 @@ Ao pressionar o botão, o pino é conectado ao **GND**, mudando o nível para ba
 3️⃣ Conecte o **LED** ao pino digital `3` do Arduino e ao GND com resistor de 220Ω em série.  
 4️⃣ Carregue o código no Arduino.
 
-**Esquema**          | <img src="imagensEvideos/EsquemaCompleto.jpg" width="250">
+<img src="imagensEvideos/EsquemaCompleto.jpg" width="400">
 ---
 
 ## 📌 Uso  
@@ -92,6 +92,7 @@ void loop() {
     digitalWrite(LED_PIN, LOW);   // Apaga o LED
   }
 }
+```
 
 ## 🎬 Vídeo Demonstrativo do Funcionamento
 
