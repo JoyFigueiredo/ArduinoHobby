@@ -7,6 +7,9 @@ Olá,
 
 
 - [Motor de Passo](MotorDePasso) 
-- [Sensores](MotorDePasso) 
- 
+- [Sensores](TestesDeSensores)
+  - [Sensores de Presença](TestesDeSensores/sensorPresenca)
+  - [Sensores de Touch](TestesDeSensores/SensorTouch)
+- [Eletrônica Básica](TestesDeEletronicaBasica) 
+  - [Botão Pull-Up](TestesDeEletronicaBasica/Botões/BotãoPull-Up) 
  
