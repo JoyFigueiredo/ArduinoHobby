@@ -1,4 +1,4 @@
-﻿# 🚀 Arduino Hobby - Teste de Sensores 
+﻿# 🚀 Arduino Hobby
 
 Bem-vindo ao repositório **Arduino Hobby**! Aqui você encontrará projetos relacionados a testes de componentes como sensores de toque e sensores de presença usando Arduino.
 
@@ -46,4 +46,5 @@ Se você tiver alguma dúvida ou sugestão, entre em contato!
 ---
 
 *Este projeto foi criado por [Joice Barros de Figueiredo](https://github.com/JoyFigueiredo).*
+
 
