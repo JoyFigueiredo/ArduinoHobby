@@ -96,4 +96,3 @@ void loop() {
 
 ## 🎬 Vídeo Demonstrativo do Funcionamento
 
-<video controls src="imagensEvideos/VideoFuncionandoBotão.mp4" title="Title"></video>
