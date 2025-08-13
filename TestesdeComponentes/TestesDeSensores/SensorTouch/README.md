@@ -94,5 +94,3 @@ void loop() {
 ## 🎬 Vídeo Demonstrativo do Funcionamento
 
 https://github.com/JoyFigueiredo/ArduinoHobby/assets/87450298/07a08eba-10fd-4d6d-8f5a-3f352e77d485
-
-
