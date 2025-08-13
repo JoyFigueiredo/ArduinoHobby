@@ -96,4 +96,8 @@ void loop() {
 
 ## 🎬 Vídeo Demonstrativo do Funcionamento
 
-https://github.com/JoyFigueiredo/ArduinoHobby/raw/refs/heads/main/TestesdeComponentes/TestesDeEletronicaBasica/Bot%C3%B5es/Bot%C3%A3oPull-Up/imagensEvideos/VideoFuncionandoBot%C3%A3o
+https://github.com/user-attachments/assets/a0f1e87f-28bf-4657-b106-0c7fd5fe0b6a
+
+
+
+
