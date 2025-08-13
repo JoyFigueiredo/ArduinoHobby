@@ -69,7 +69,7 @@ Ao pressionar o botão, o pino é conectado ao **GND**, mudando o nível para ba
 3️⃣ Conecte o **LED** ao pino digital `3` do Arduino e ao GND com resistor de 220Ω em série.  
 4️⃣ Carregue o código no Arduino.
 
-<img src="imagensEvideos/EsquemaCompleto.jpg" width="400">
+<img src="imagensEvideos/EsquemaCompleto.jpg" width="500">
 ---
 
 ## 📌 Uso  
@@ -96,4 +96,4 @@ void loop() {
 
 ## 🎬 Vídeo Demonstrativo do Funcionamento
 
-TestesdeComponentes\TestesDeEletronicaBasica\Botões\BotãoPull-Up\imagensEvideos\VideoFuncionandoBotão.mp4
+[Video](https://github.com/JoyFigueiredo/ArduinoHobby/blob/main/TestesdeComponentes/TestesDeEletronicaBasica/Bot%C3%B5es/Bot%C3%A3oPull-Up/imagensEvideos/VideoFuncionandoBot%C3%A3o.mp4)
