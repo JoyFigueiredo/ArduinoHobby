@@ -96,4 +96,4 @@ void loop() {
 
 ## 🎬 Vídeo Demonstrativo do Funcionamento
 
-https://github.com/JoyFigueiredo/ArduinoHobby/blob/1f745939695a0515eeff5d98806e94b064bbedb4/TestesdeComponentes/TestesDeEletronicaBasica/Bot%C3%B5es/Bot%C3%A3oPull-Up/imagensEvideos/VideoFuncionandoBot%C3%A3o
+<video controls src="imagensEvideos/VideoFuncionandoBotão.mp4" title="Title"></video>
