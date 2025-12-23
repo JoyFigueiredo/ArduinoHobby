@@ -1,4 +1,3 @@
-https://github.com/canalBrincandoComIdeias/A2a
 
 Olá,
 > Venho compartilhar meu conhecimento, de forma a também deixar de fácil acesso exemplos e formas de uso de componentes, um portfólio pessoal dos meus componentes.
@@ -58,5 +57,6 @@ Aqui estão os principais componentes utilizados no projeto:
 ## 📌 Uso  
 
 Código básico
+
 
 ## Vídeo Demonstrativo do Funcionamento
