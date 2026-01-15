@@ -9,15 +9,6 @@ Repositório com exemplos e projetos de hobby envolvendo <strong>Arduino</strong
 <p align="center">
   <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" alt="Status">
   <img src="https://img.shields.io/badge/versão-1.0.0-blue" alt="Versão">
-  
-<!-- Badges: start -->
-[![CI](https://github.com/JoyFigueiredo/ArduinoHobby)](https://github.com/JoyFigueiredo/ArduinoHobby/actions/workflows/arduino-ci.yml)  <!-- Status do workflow --> 
-![Último commit](https://img.shields.io/github/last-commit/JoyFigueiredo/ArduinoHobby?style=flat) 
-![Release](https://img.shields.io/github/v/release/JoyFigueiredo/ArduinoHobby?display_name=tag&sort=semver) 
-![Licença](https://img.shields.io/github/license/JoyFigueiredo/ArduinoHobby)
-<!-- Badges: end -->
-
-
 </p>
 
 > **Stack principal:** C/C++ (Arduino)  
@@ -55,6 +46,7 @@ Se você tiver alguma dúvida ou sugestão, entre em contato!
 ---
 
 *Este projeto foi criado por [Joice Barros de Figueiredo](https://github.com/JoyFigueiredo).*
+
 
 
 
