@@ -26,14 +26,7 @@ O **ArduinoHobby** reúne protótipos desenvolvidos com Arduino, ideais para apr
 ## 🚧 Estrutura do Projeto
 
 ```text
-.
-├── src/
-│   ├── led_blink.ino        # Pisca LED básico
-│   └── sensor_reading.ino   # Leitura de sensor (exemplo futuro)
-├── docs/
-│   └── wiring_diagram.png   # Diagrama de ligações
-├── LICENSE
-└── README.md
+
 ```
 
 ---
@@ -46,6 +39,7 @@ Se você tiver alguma dúvida ou sugestão, entre em contato!
 ---
 
 *Este projeto foi criado por [Joice Barros de Figueiredo](https://github.com/JoyFigueiredo).*
+
 
 
 
